@@ -2,7 +2,7 @@ def greet_with_default(name="guest"):
     print(f"hello, {name}!")
 
 greet_with_default()
-greet_with_default("boobs")  
+greet_with_default("Zangpo")  
 
 def calculate_rectangle_area(width, height):
     return width * height
