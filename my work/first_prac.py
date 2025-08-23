@@ -1,17 +1,14 @@
 from collections import deque
 
-# Create deque
 d = deque()
 
-# Insert elements
-d.append(10)        # Insert at rear
-d.appendleft(20)    # Insert at front
+d.append(10)        
+d.appendleft(20)   
 d.append(30)
 
-print("Deque:", d)  # Deque([20, 10, 30])
+print("Deque:", d)  
 
-# Remove elements
-d.pop()             # Remove from rear → 30
-d.popleft()         # Remove from front → 20
+d.pop()            
+d.popleft()         
 
-print("After removals:", d)  # Deque([10])
+print("After removals:", d)  
