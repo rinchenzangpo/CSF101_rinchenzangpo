@@ -12,3 +12,5 @@ d.pop()
 d.popleft()         
 
 print("After removals:", d)  
+
+print(True+True+True+True)
